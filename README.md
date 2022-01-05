@@ -10,4 +10,4 @@ The code in this folder is meant to help maintain volume-balanced reservoirs dur
 
 `controller.cpp` is the code designed to control KNF FF-12 diaphragm pumps using a Teensy 3.5 microcontroller. These pumps take a 0-5V input which is approximated by the analog output of the microcontroller. I've uploaded the code using both PlatformIDE and Arduino (with Teensyduino add-on). I also previously used this code to control Cole-Parmer peristaltic pumps, which take 0-10V input, by adding an op-amp circuit to double the voltage.
 
-If you have issues getting this admittedly inadequately documented code to run, feel free to reach out and we will get it sorted. If you make your improvements also feel free to pull request. If you use this for academic work cite me pretty please.
+If you have issues getting this admittedly inadequately documented code to run, feel free to reach out and we will get it sorted. If you make your improvements also feel free to pull request. If you use this for academic work cite [this paper](https://doi.org/10.3389/fceng.2021.748865) pretty please.
